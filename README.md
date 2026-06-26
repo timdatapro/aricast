@@ -137,4 +137,4 @@ optimization is sequential; Prophet's Stan backend gains nothing on a 1,351-poin
 
   ---
 
-*Data: CDC NSSP, public domain. Working language Russian; code & docs in English.*
+*Data: CDC NSSP, public domain.*
