@@ -1,4 +1,4 @@
-# ARICast — forecasting acute respiratory illness (ARI) ED visit load
+# ARICast: forecasting acute respiratory illness (ARI) ED visit load
 
 Forecasting the daily share of U.S. emergency-department (ED) visits attributable to
 **acute respiratory illness (ARI)**, using open CDC NSSP data — for the nation and for
