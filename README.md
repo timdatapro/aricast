@@ -16,9 +16,7 @@ California — and comparing five forecasting approaches across four horizons.
 Respiratory ED load is strongly seasonal, but the timing and height of each season vary year
 to year, and staffing for surges is often planned reactively. A short-horizon forecast turns
 that planning proactive the operational question is *"what will next week look like?"*, which
-is exactly the horizon where the modeling here is strongest. Portfolio project (BI/Data
-Developer → Healthcare Data Analytics / Data Science).
-
+is exactly the horizon where the modeling here is strongest. 
 ## Data
 
 - **Source:** CDC NSSP *Emergency Department Respiratory Daily* (dataset `vjzj-u7u8`,
@@ -137,12 +135,6 @@ optimization is sequential; Prophet's Stan backend gains nothing on a 1,351-poin
 - National and California modeled separately (different seasonal amplitudes); a hierarchical
   multi-region model is future work.
 
-## Roadmap
-
-- [x] Phase 0–2 — acquisition, EDA/baselines, Prophet & ARIMA modeling, five-model comparison.
-- [x] Phase 3 — residual diagnostics, prediction-interval coverage, final comparison table.
-- [ ] Phase 4 — Streamlit dashboard → Streamlit Community Cloud → embed in Notion.
-
----
+  ---
 
 *Data: CDC NSSP, public domain. Working language Russian; code & docs in English.*
