@@ -1,0 +1,17 @@
+series,horizon,model,lb_pvalue_lag10,mean_error,std_error
+United States,7,arima,0.0,-0.0286,0.6009
+United States,7,prophet,0.0,0.2489,0.8027
+United States,14,arima,0.0,0.0689,1.0699
+United States,14,prophet,0.0,0.3414,1.2742
+United States,30,arima,0.0,0.2076,1.6103
+United States,30,prophet,0.0,-0.4149,1.2843
+United States,90,arima,0.0,0.4253,1.9921
+United States,90,prophet,0.0,-0.6011,1.4347
+California,7,arima,0.0,-0.0876,0.5074
+California,7,prophet,0.0,0.4511,1.3965
+California,14,arima,0.0,-0.1048,0.8349
+California,14,prophet,0.0,0.4705,1.8722
+California,30,arima,0.0,-0.0912,1.617
+California,30,prophet,0.0,-0.2822,2.1383
+California,90,arima,0.0,-0.1058,2.9157
+California,90,prophet,0.0,-0.3355,2.4192

@@ -1,0 +1,19 @@
+N,selection_MAPE,holdout_MAPE,holdout_std,optimism_gap,series
+1,8.566,7.365,1.968,-1.201,United States
+2,6.807,6.673,1.647,-0.134,United States
+4,5.287,5.762,0.684,0.475,United States
+8,4.448,5.704,0.458,1.256,United States
+16,4.015,5.681,0.397,1.666,United States
+32,3.804,5.775,0.325,1.971,United States
+64,3.684,5.6,0.358,1.917,United States
+128,3.56,5.341,0.302,1.781,United States
+180,3.476,5.159,0.0,1.683,United States
+1,10.743,12.044,2.18,1.301,California
+2,8.414,11.347,2.057,2.933,California
+4,6.306,10.194,1.953,3.888,California
+8,5.741,10.298,1.994,4.558,California
+16,5.445,9.965,2.084,4.52,California
+32,5.335,9.555,1.989,4.221,California
+64,5.203,9.032,1.979,3.829,California
+128,5.019,8.054,1.154,3.034,California
+180,4.925,7.737,0.0,2.811,California

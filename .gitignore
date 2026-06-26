@@ -1,0 +1,22 @@
+# data
+data/raw/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# jupyter
+.ipynb_checkpoints/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# streamlit
+.streamlit/secrets.toml

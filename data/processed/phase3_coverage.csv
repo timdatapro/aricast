@@ -1,0 +1,17 @@
+series,horizon,model,nominal_coverage,empirical_coverage,n_points
+United States,7,arima,0.9,0.933,105
+United States,7,prophet,0.9,0.838,105
+United States,14,arima,0.9,0.933,210
+United States,14,prophet,0.9,0.79,210
+United States,30,arima,0.9,0.938,450
+United States,30,prophet,0.9,0.9,450
+United States,90,arima,0.9,0.945,1170
+United States,90,prophet,0.9,0.863,1170
+California,7,arima,0.9,1.0,105
+California,7,prophet,0.9,0.714,105
+California,14,arima,0.9,0.967,210
+California,14,prophet,0.9,0.643,210
+California,30,arima,0.9,0.9,450
+California,30,prophet,0.9,0.831,450
+California,90,arima,0.9,0.841,1170
+California,90,prophet,0.9,0.781,1170
