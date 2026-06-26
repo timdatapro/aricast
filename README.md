@@ -1,12 +1,12 @@
 # ARICast: forecasting acute respiratory illness (ARI) ED visit load
 
 Forecasting the daily share of U.S. emergency-department (ED) visits attributable to
-**acute respiratory illness (ARI)**, using open CDC NSSP data — for the nation and for
+**acute respiratory illness (ARI)**, using open CDC NSSP data for the nation and for
 California — and comparing five forecasting approaches across four horizons.
 
 > **Headline finding:** *the right model depends on the forecast horizon.* ARIMA+Fourier
 > cuts short-horizon error to ~3–5% MAPE (less than half the seasonal-naive baseline);
-> by 90 days every complex model degrades to — or below — a simple baseline. A "do-nothing"
+> by 90 days every complex model degrades to or below a simple baseline. A "do-nothing"
 > persistence forecast turns out to be the second-best model at the 7-day operational horizon.
 
 ---
@@ -15,7 +15,7 @@ California — and comparing five forecasting approaches across four horizons.
 
 Respiratory ED load is strongly seasonal, but the timing and height of each season vary year
 to year, and staffing for surges is often planned reactively. A short-horizon forecast turns
-that planning proactive — the operational question is *"what will next week look like?"*, which
+that planning proactive the operational question is *"what will next week look like?"*, which
 is exactly the horizon where the modeling here is strongest. Portfolio project (BI/Data
 Developer → Healthcare Data Analytics / Data Science).
 
@@ -36,7 +36,7 @@ Developer → Healthcare Data Analytics / Data Science).
 |---|---|
 | **Persistence** | `ŷ = last observed value`. Pure inertia; strong at short horizons. |
 | **Seasonal-naive** | `ŷ_t = y_{t−365}`. Pure seasonality; horizon-robust, wins at 90 days. |
-| **Prophet (two-regime)** | Additive Prophet; trend flexibility by regime — flexible (`cps=0.5`) short, stiff (`cps≈0.001–0.01`) long. |
+| **Prophet (two-regime)** | Additive Prophet; trend flexibility by regime flexible (`cps=0.5`) short, stiff (`cps≈0.001–0.01`) long. |
 | **ARIMA + Fourier** | `auto_arima` (order per window) + Fourier yearly/weekly terms. Wins at short horizons. |
 
 All scored on **identical rolling cross-validation windows** (`initial=900, step=30`).
